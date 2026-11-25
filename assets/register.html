@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青年诗词网 - 用户注册</title>
+</head>
+
+<body>
+
+    <header>
+        <center>
+        <h1>青年诗词网</h1>
+        <a href="index.html">返回首页</a>
+            </center>
+    </header>
+
+    <main>
+        <center>
+
+        <h2>用户登录</h2>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <p>
+                <label for="avatar">上传头像：</label>
+                <input id="avatar" type="file" name="avatar" accept="image/*">
+            </p>
+
+            <p>
+                <label for="register-username">用户名：</label>
+                <input id="register-username" type="text" name="username" placeholder="请输入用户名" required>
+            </p>
+
+            <p>
+                <label for="register-password">密码：</label>
+                <input id="register-password" type="password" name="password" placeholder="请输入密码" required>
+            </p>
+
+            <p>
+                <label for="confirm-password">确认密码：</label>
+                <input id="confirm-password" type="password" name="confirm_password" placeholder="请再次输入密码" required>
+            </p>
+
+            <p>
+                性别：
+                <input id="sex-male" type="radio" name="sex" value="男" required><label for="sex-male">男</label>
+                <input id="sex-female" type="radio" name="sex" value="女"><label for="sex-female">女</label>
+            </p>
+
+            <p>
+                <label for="birthday">出生日期：</label>
+                <input id="birthday" type="date" name="birthday">
+            </p>
+
+            <p>
+                <label for="email">个人邮箱：</label>
+                <input id="email" type="email" name="email" placeholder="请输入邮箱" required>
+            </p>
+
+            <p>
+                <input type="submit" value="注册">
+                <input type="reset" value="重置">
+            </p>
+
+        </form>
+
+
+            </center>
+    </main>
+
+   
+
+</body>
+
+</html>
